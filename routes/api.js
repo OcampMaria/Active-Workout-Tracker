@@ -11,3 +11,4 @@ router.post("/api/workout", ({ body }, res) => {
       });
 });
 
+module.exports = router;
