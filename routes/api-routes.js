@@ -2,7 +2,7 @@ const router = require("express").Router();
 const Workout = require("../models/workout-model");
 
 // * Add new exercises to a new workout plan.
-router.post("/api/workout", ({ body }, res) => {
+router.post("/api/workouts", ({ body }, res) => {
     Workout.create(body)
       .then(dbWorkout => {
         res.json(dbWorkout);
@@ -15,7 +15,7 @@ router.post("/api/workout", ({ body }, res) => {
 
 
 // * Add exercises to a previous workout plan.
-router.put("/api/workout:id", (req, res) => {
+router.put("/api/workouts:id", (req, res) => {
     Workout.findOneAndUpdate({
         _id: req.params.id
     }, {
@@ -29,7 +29,7 @@ router.put("/api/workout:id", (req, res) => {
     });
 });
 
-router.get("/api/workout/range", (req, res) => {
+router.get("/api/workouts/range", (req, res) => {
     Workout.find({})
     .then(dbWorkout => {
         res.json(dbWorkout);
@@ -38,7 +38,7 @@ router.get("/api/workout/range", (req, res) => {
     });
 });
 
-router.get("/api/workout", (req, res) =>{
+router.get("/api/workouts", (req, res) =>{
     Workout.find({})
         .sort({day:1})
         .then(dbWorkout => {
