@@ -1,5 +1,5 @@
-# Weather-App
-![](./Assets/WeatherApp.jpg)
+# Active-Workout-Tracker
+![](./Assets/wrkout-tracker.jpg)
 
   ## Table of Contents
   * [Description](#description)
@@ -10,7 +10,8 @@
   * [Contributing](#contributing)
 
   ## Description
-  This application is can be used to easily access weather information. The weather data was obtained from openweathermap's API. 
+  
+ ![](./Assets/wrkout-tracker2.jpg)
 
   The technologies used include: 
   * Node.js
@@ -24,7 +25,7 @@
   ## Usage 
   This is a preview of how the Web application Looks Like: 
   
-  ![](./Assets/WeatherApp.gif)
+  ![](./Assets/Workout-tracker.mp4)
 
   ## Deployed Application 
   The link to the published application can be accessed on the following link: 
