@@ -1,5 +1,5 @@
 # Active-Workout-Tracker
-![](./Assets/wrkout-tracker.jpg)
+![Main Page](./Assets/wrkout-tracker.jpg)
 
   ## Table of Contents
   * [Description](#description)
@@ -11,7 +11,7 @@
 
   ## Description
   
- ![](./Assets/wrkout-tracker2.jpg)
+ ![Dashboard](./assets/wrkout-tracker2.jpg)
 
   The technologies used include: 
   * Node.js
