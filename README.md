@@ -1,5 +1,5 @@
 # Active-Workout-Tracker
-![Main Page](./Assets/wrkout-tracker.jpg)
+![Dashboard](./assets/wrkout-tracker.jpg)
 
   ## Table of Contents
   * [Description](#description)
@@ -24,8 +24,7 @@
 
   ## Usage 
   This is a preview of how the Web application Looks Like: 
-  
-  ![](./Assets/Workout-tracker.mp4)
+  ![Demo](./assets/Workout-tracker.mp4)
 
   ## Deployed Application 
   The link to the published application can be accessed on the following link: 
